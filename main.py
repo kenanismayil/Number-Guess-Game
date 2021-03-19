@@ -4,7 +4,7 @@ secret = rnd.randint(0, 100)
 
 check = False
 
-for i in range(7):
+for i in range(5):
     guess_number = int(input("Enter your guess number: "))
     if guess_number == secret:
         print("Congrats!!!")
